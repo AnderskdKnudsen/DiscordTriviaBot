@@ -110,5 +110,4 @@ bot.on("message", msg => {
         msg.reply("\nHer er nogle forkerte svar: " + stringHints);
     }
 });
-
 bot.login(botconfig.token);
