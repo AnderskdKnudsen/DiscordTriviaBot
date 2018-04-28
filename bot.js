@@ -18,6 +18,14 @@ let randomNumberQuestion;
 let answered = false;
 let hints = [];
 
+
+//TODO
+//Change api-url to only get multiple choice questions
+//Display 1 correct and 3 incorrect (in randomized order)
+//Display category
+//Listen after correct answer (perhaps 2-3 attempts)
+//Autoload new question after correct answer og insufficient attempts
+
 bot.on("message", msg => {
     if(msg.channel.id !== botconfig.channel && msg.channel.id !== botconfig.testchannel) return;
 
